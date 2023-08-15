@@ -4,19 +4,17 @@
 This repository houses a collection of projects that explore how application programs interact with the operating system. It showcases both memory-based techniques, like pipes, and storage-based techniques, such as accessing and manipulating data stored in the Linux filesystem.
 
 ## Table of Contents
+1. [Markdown to HTML Converter](#1markdown_to_html_converter)
+2. [RandomNumber](#2randomnumber)
+3. [File Manipulator](#3file-manipulator)
 
-1. [Markdown to HTML Converter](#markdown_to_html_converter)
-2. [RandomNumber](#randomnumber)
-3. [file_manipulator.py](#file_manipulator)
 
-## 1.Markdown_to_HTML_Converter
+## 1. Markdown to HTML Converter
 
 ### Overview
-
 This project provides a tool to convert Markdown files to HTML format. It also offers a feature to replace all full-width colons with half-width ones in the converted HTML content.
 
 ### Features
-
 - Convert `.md` files to `.html`.
 - Replace full-width colons `：` with half-width colons `:`.
 
@@ -25,7 +23,7 @@ This project provides a tool to convert Markdown files to HTML format. It also o
 python3 Markdown_to_HTML_Converter.py markdown inputfile.md outputfile.html
 ```
 
-## 2.RandomNumber
+## 2. RandomNumber
 
 ### Overview
 A simple number guessing game. The program will randomly choose a number within a specified range, and the user has to guess it within a limited number of attempts.
@@ -40,9 +38,7 @@ A simple number guessing game. The program will randomly choose a number within 
 python3 RandomNumber.py
 ```
 
-
-
-## 3.File Manipulator
+## 3. File Manipulator
 
 ### Overview
 The File Manipulator project offers a range of functionalities to manipulate the content of files. It supports actions like reversing the contents, copying files, duplicating content, and replacing specific strings.
